@@ -1,0 +1,72 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.img-responsive {
+    max-width: 100%;
+}
+.hero-image {
+    background-image: url(./img.food/heroimage.png);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.hero-food{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    position: absolute;
+}
+.hero-food h1 {
+    font-size: 2.4rem;
+    text-align: center;
+} 
+.hero-food span {
+    margin-left: 5rem;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+.from-code {
+    text-align: center;
+}
+.from-code .post-code {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6rem;
+    border: none;
+    outline: none;
+}
+.from-code button {
+    width: 40%;
+    text-align: center;
+    background-color: #00bab1;
+    color: white;
+    padding: .6rem;
+    margin: 1rem auto 0rem;
+    border: none;
+    border-radius: .3rem;
+}
+/*prodict section*/
+.product {
+    margin-top: .3rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.product-list-item {
+    float: left;
+    width: 32%;
+    margin-left: .5rem;
+}
+.product-list-item:first-of-type {
+    margin: 0;
+}
+@media sceen and (max-width:700px) {
+    .product-list-item {
+        width: 100%;
+        float: none;
+    }
+}
